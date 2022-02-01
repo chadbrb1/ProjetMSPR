@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ProjetMSPR" />
         <module name="MSPR_devAppli" />
         <module name="MSPR Dev App" />
         <module name="MSPR_devAppli-master" />
