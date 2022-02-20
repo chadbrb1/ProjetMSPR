@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class Executable {
+public class Programme {
 
     public static void main(String[] args) throws IOException {
 

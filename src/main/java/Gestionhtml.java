@@ -32,7 +32,7 @@ public class Gestionhtml {
 
         public void InsertionHTML(String AncienneVar, String HTMLInsert) throws IOException {
 
-            File HTMLSqueletteAccueil = new File("src/main/Html/Squelette/Accueil.html");
+            File HTMLSqueletteAccueil = new File("src/main/Html/Acc/Accueil.html");
             File HTMLGenerated = new File("src/main/Html/Generation/Accueil.html");
             String AncienHTML = "";
             BufferedReader reader = new BufferedReader(new FileReader(HTMLSqueletteAccueil));
@@ -51,6 +51,7 @@ public class Gestionhtml {
             writer.write(NouveauHTML);
             reader.close();
             writer.close();
+
 
         }
 
